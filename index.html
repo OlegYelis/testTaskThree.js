@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Netflix Homepage</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+   <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+   <header class="page-header">
+      <div class="container">
+         <div class="header-thumb">
+            <div class="main-info">
+               <img class="logo" src="./images/netflix-logo.webp" alt="Netflix">
+               <p class="main-info__date">Friday July 8th</p>
+            </div>
+            <div class="user-menu">
+               <button class="user-menu__btn">
+                  <svg class="user-menu__icon" width="43" height="43">
+                     <use href="./images/icons.svg#icon-search"></use>
+                  </svg>
+               </button>
+
+               <img class="user-menu__profile" src="./images/user.webp" alt="User">
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <section class="preview">
+         <div class="container">
+            <p class="preview__genre">Drama <span class="line"></span> Thriller <span class="line"></span>
+               Supernatural
+            </p>
+            <h1 class="preview__name">Stranger Things</h1>
+            <h2 class="preview__info">2019 <span class="line"></span> DIRECTOR: <span class="preview__info--grey">Shawn
+                  Levy</span> <span class="line"></span> seasons:
+               <span class="preview__info--grey">3 (5 Episodes)</span>
+            </h2>
+            <p class="preview__description">In 1980s Indiana, a group of young friends witness supernatural forces and
+               secret government exploits. As
+               they search
+               for answers, the children unravel a series of extraordinary mysteries.</p>
+            <ul class="list preview__rating-list">
+               <li class="preview__rating-item">
+                  <svg class="preview__rating-icon" width="32" height="32">
+                     <use href="./images/icons.svg#icon-clarity_star--active"></use>
+                  </svg>
+               </li>
+               <li class="preview__rating-item">
+                  <svg class="preview__rating-icon" width="32" height="32">
+                     <use href="./images/icons.svg#icon-clarity_star--active"></use>
+                  </svg>
+               </li>
+               <li class="preview__rating-item">
+                  <svg class="preview__rating-icon" width="32" height="32">
+                     <use href="./images/icons.svg#icon-clarity_star--active"></use>
+                  </svg>
+               </li>
+               <li class="preview__rating-item">
+                  <svg class="preview__rating-icon" width="32" height="32">
+                     <use href="./images/icons.svg#icon-clarity_star"></use>
+                  </svg>
+               </li>
+               <li class="preview__rating-item">
+                  <svg class="preview__rating-icon" width="32" height="32">
+                     <use href="./images/icons.svg#icon-clarity_star"></use>
+                  </svg>
+               </li>
+            </ul>
+
+            <div class="prewiev__action">
+               <button class="preview__btn--accent button">STREAM NOW <svg class="preview__btn-icon" width="32"
+                     height="32">
+                     <use href="./images/icons.svg#icon-play-circle"></use>
+                  </svg></button>
+               <button class="preview__btn button">ALL EPISODES</button>
+            </div>
+
+         </div>
+      </section>
+
+      <section class="recommendation">
+         <div class="container">
+            <div class="recommendation__slider">
+               <h2 class="recommendation__title">POPULAR THIS WEEK</h2>
+               <div class="slider__actions">
+                  <button class="slider__button">
+                     <svg class="slider__icon" width="38" height="38">
+                        <use href="./images/icons.svg#icon-Group"></use>
+                     </svg>
+                  </button>
+                  <button class="slider__button">
+                     <svg class="slider__icon" width="38" height="38">
+                        <use href="./images/icons.svg#icon-Group"></use>
+                     </svg>
+                  </button>
+               </div>
+
+            </div>
+            <ul class="recommendation__list list">
+               <li class="recommendation__item"><img src="./images/Rectangle10.webp" alt=""></li>
+               <li class="recommendation__item"><img src="./images/Rectangle6.webp" alt=""></li>
+               <li class="recommendation__item"><img src="./images/Rectangle7.webp" alt=""></li>
+               <li class="recommendation__item"><img src="./images/Rectangle8.webp" alt=""></li>
+               <li class="recommendation__item"><img src="./images/Rectangle9.webp" alt=""></li>
+               <li class="recommendation__item"><img src="./images/Rectangle11.webp" alt=""></li>
+            </ul>
+         </div>
+      </section>
+   </main>
+
+
+
+</body>
+
+</html>
