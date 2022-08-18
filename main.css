@@ -6,11 +6,18 @@
 }
 
 body {
-  background-color: grey;
   color: var(--primary-text-color);
 
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.03em;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -2;
 }
 
 p,
@@ -71,6 +78,7 @@ img {
 
 .page-header {
   padding: 30px;
+  z-index: 2;
 }
 
 .header-thumb {
@@ -125,6 +133,7 @@ img {
 /* ---------- PREWIEV ----------*/
 .preview {
   padding: 54px 0 34px 0;
+  z-index: 3;
 }
 
 .preview__genre {
@@ -225,6 +234,7 @@ img {
 
 .recommendation {
   padding: 20px 0 49px 0;
+  z-index: 3;
 }
 
 .recommendation__slider {
