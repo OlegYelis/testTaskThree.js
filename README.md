@@ -1,1 +1,1 @@
-# testCoderiver
+# familiarization with Three.js
